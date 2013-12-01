@@ -35,6 +35,8 @@ $.fn.S3Uploader = (options) ->
 
   setUploadForm = ->
     $uploadForm.fileupload
+    
+      dataType: 'xml'
 
       add: (e, data) ->
         file = data.files[0]
