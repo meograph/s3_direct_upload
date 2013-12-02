@@ -18,5 +18,5 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'rails', '>= 3.1'
   gem.add_dependency 'coffee-rails', '>= 3.1'
   gem.add_dependency 'sass-rails', '>= 3.1'
-  gem.add_dependency 'jquery-fileupload-rails', '~> 0.4.2', :git => 'https://github.com/meograph/jquery-fileupload-rails.git'
+  gem.add_dependency 'jquery-fileupload-rails', '~> 0.4.2'
 end
